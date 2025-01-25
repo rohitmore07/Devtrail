@@ -22,13 +22,13 @@ export default function Footer() {
           </div>
           <div className="flex items-center space-x-4">
             <Link
-              href="#"
+              href="https://github.com/rohitmore07"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Github className="h-5 w-5" />
             </Link>
             <Link
-              href="#"
+              href="https://x.com/rohittmore"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Twitter className="h-5 w-5" />

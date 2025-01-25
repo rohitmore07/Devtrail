@@ -8,7 +8,7 @@ import { Toaster } from '@/components/ui/toaster'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'TechPath - Your Learning Journey Starts Here',
+  title: 'Devtrail - Your Learning Journey Starts Here',
   description: 'Comprehensive technology learning roadmaps and resources for developers',
 }
 

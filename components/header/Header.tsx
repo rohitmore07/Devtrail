@@ -32,7 +32,7 @@ export default function Header() {
           {/* Logo and Branding */}
           <Link href="/" className="flex items-center space-x-2">
             <BookOpen className="h-6 w-6 text-violet-400" />
-            <span className="font-bold text-xl">TechPath</span>
+            <span className="font-bold text-xl">devtrail</span>
           </Link>
 
           {/* Navigation Menu for Desktop */}

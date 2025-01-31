@@ -83,7 +83,7 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-violet-400 to-violet-600;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#3b83ff] to-[#BBD0F4];
 }
 
 .glass-card {

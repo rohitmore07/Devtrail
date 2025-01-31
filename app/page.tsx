@@ -75,7 +75,7 @@ export default function Home() {
               of learners to accelerate your tech career.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-[#BBD0F4] hover:bg-[#BBD0F4]">
+              <Button size="lg" className="bg-[#BBD0F4] hover:bg-[#71a4fe]">
                 Explore Roadmaps
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

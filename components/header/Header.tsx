@@ -31,7 +31,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo and Branding */}
           <Link href="/" className="flex items-center space-x-2">
-            <BookOpen className="h-6 w-6 text-violet-400" />
+            <BookOpen className="h-6 w-6 text-[#BBD0F4]" />
             <span className="font-bold text-xl">devtrail</span>
           </Link>
 
@@ -83,7 +83,7 @@ export default function Header() {
             <Button variant="ghost" asChild>
               <Link href="/login">Log in</Link>
             </Button>
-            <Button className="bg-violet-600 hover:bg-violet-700" asChild>
+            <Button className="bg-[#BBD0F4] hover:bg-[#BBD0F4]" asChild>
               <Link href="/signup">Sign up</Link>
             </Button>
           </div>
@@ -106,7 +106,7 @@ export default function Header() {
                 <Button variant="ghost" asChild className="w-full" onClick={() => setIsOpen(false)}>
                   <Link href="/login">Log in</Link>
                 </Button>
-                <Button className="w-full bg-violet-600 hover:bg-violet-700" asChild onClick={() => setIsOpen(false)}>
+                <Button className="w-full bg-[#BBD0F4] hover:bg-[#BBD0F4]" asChild onClick={() => setIsOpen(false)}>
                   <Link href="/signup">Sign up</Link>
                 </Button>
               </div>

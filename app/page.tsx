@@ -15,21 +15,21 @@ export default function Home() {
       title: "Frontend Development",
       description: "Master modern web development with React, Next.js, and more",
       image: "/placeholder.svg?height=200&width=400",
-      icon: <Code2 className="h-6 w-6 text-violet-400" />,
+      icon: <Code2 className="h-6 w-6 text-[#BBD0F4]" />,
       users: "2.5k+"
     },
     {
       title: "Backend Development",
       description: "Learn server-side programming, APIs, and databases",
       image: "/placeholder.svg?height=200&width=400",
-      icon: <Database className="h-6 w-6 text-violet-400" />,
+      icon: <Database className="h-6 w-6 text-[#BBD0F4]" />,
       users: "1.8k+"
     },
     {
       title: "Data Science",
       description: "Explore machine learning, AI, and data visualization",
       image: "/placeholder.svg?height=200&width=400",
-      icon: <Brain className="h-6 w-6 text-violet-400" />,
+      icon: <Brain className="h-6 w-6 text-[#BBD0F4]" />,
       users: "3k+"
     }
   ]
@@ -38,17 +38,17 @@ export default function Home() {
     {
       title: "Interactive Roadmaps",
       description: "Follow structured learning paths designed by experts",
-      icon: <Sparkles className="h-6 w-6 text-violet-400" />
+      icon: <Sparkles className="h-6 w-6 text-[#BBD0F4]" />
     },
     {
       title: "Active Community",
       description: "Learn and grow with fellow developers",
-      icon: <Users className="h-6 w-6 text-violet-400" />
+      icon: <Users className="h-6 w-6 text-[#BBD0F4]" />
     },
     {
       title: "Curated Resources",
       description: "Access hand-picked learning materials",
-      icon: <BookOpen className="h-6 w-6 text-violet-400" />
+      icon: <BookOpen className="h-6 w-6 text-[#BBD0F4]" />
     }
   ]
 
@@ -63,7 +63,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-3xl mx-auto"
           >
-            <Badge className="mb-4 bg-violet-500/10 text-violet-400 hover:bg-violet-500/20 transition-colors">
+            <Badge className="mb-4 bg-violet-500/10 text-[#BBD0F4] hover:bg-violet-500/20 transition-colors">
               Free Learning Resources
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -75,7 +75,7 @@ export default function Home() {
               of learners to accelerate your tech career.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-violet-600 hover:bg-violet-700">
+              <Button size="lg" className="bg-violet-600 hover:bg-[#BBD0F4]">
                 Explore Roadmaps
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -105,7 +105,7 @@ export default function Home() {
       <section className="py-20 bg-muted/50">
         <div className="container px-4">
           <div className="text-center mb-12">
-            <Badge variant="outline" className="mb-4 text-violet-400 border-violet-400/20">
+            <Badge variant="outline" className="mb-4 text-[#BBD0F4] border-violet-400/20">
               Featured Paths
             </Badge>
             <h2 className="text-3xl font-bold mb-4">Popular Learning Roadmaps</h2>
@@ -192,14 +192,14 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-center max-w-2xl mx-auto"
           >
-            <Badge className="mb-4 bg-violet-500/10 text-violet-400">
+            <Badge className="mb-4 bg-violet-500/10 text-[#BBD0F4]">
               Get Started Today
             </Badge>
             <h2 className="text-3xl font-bold mb-4">Ready to Start Learning?</h2>
             <p className="text-muted-foreground mb-8">
               Join thousands of developers who are already learning and growing with our platform
             </p>
-            <Button size="lg" className="bg-violet-600 hover:bg-violet-700">
+            <Button size="lg" className="bg-violet-600 hover:bg-[#BBD0F4]">
               Create Free Account
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

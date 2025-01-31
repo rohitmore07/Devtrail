@@ -75,7 +75,7 @@ export default function Home() {
               of learners to accelerate your tech career.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-violet-600 hover:bg-[#BBD0F4]">
+              <Button size="lg" className="bg-[#BBD0F4] hover:bg-[#BBD0F4]">
                 Explore Roadmaps
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -199,7 +199,7 @@ export default function Home() {
             <p className="text-muted-foreground mb-8">
               Join thousands of developers who are already learning and growing with our platform
             </p>
-            <Button size="lg" className="bg-violet-600 hover:bg-[#BBD0F4]">
+            <Button size="lg" className="bg-[#BBD0F4] hover:bg-[#BBD0F4]">
               Create Free Account
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
